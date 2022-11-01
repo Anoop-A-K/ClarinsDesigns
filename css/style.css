@@ -952,3 +952,7 @@ ul.link_menu li a:hover {
 .in_page .header {
      border-bottom: #fca412 solid 2px;
 }
+
+.map-responsive iframe{
+     width: 100%;
+}
