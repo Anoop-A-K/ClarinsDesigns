@@ -313,7 +313,7 @@ button {
 
 .banner {
      position: relative;
-     background: url(../images/banner1.jpg);
+     background: url(../images/banner1.webp);
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
@@ -918,7 +918,7 @@ button {
 /** contact section **/
 
 .contact {
-     background: url(../images/conatct.jpg);
+     background: url(../images/conatct.webp);
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center;
