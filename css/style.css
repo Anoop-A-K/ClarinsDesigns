@@ -314,11 +314,12 @@ button {
 .banner {
      position: relative;
      background: url(../images/banner1.jpg);
-     background-size: 100% 100%;
+     background-size: 95% 80%;
      background-position: center;
      background-repeat: no-repeat;
+     background-color:#f3f3f3;
      min-height: 630px;
-     padding-top: 17%;
+     padding-top: 13%;
 }
 
 .text-bg {
@@ -342,12 +343,12 @@ button {
 }
 
 .text-bg span {
-     line-height: 25px;
-     padding: 40px 0;
-
-     color: #fff;
+     line-height: 40px;
+     /* padding-bottom: 0 40px; */
+     margin-top: 0;
+     color: black;
      font-size: 20px;
-     font-weight: bold;
+     font-weight: normal;
      display: block;
 }
 
@@ -369,6 +370,7 @@ button {
 .banner .carousel-indicators {
      display: none;
 }
+
 
 #myCarousel .carousel-control-prev,
 #myCarousel .carousel-control-next {
@@ -572,6 +574,7 @@ button {
      padding-top: 80px;
      background-color: #eae7e7;
      padding-bottom: 50px;
+     transition: all 1s;
 }
 
 .gallery .titlepage {
@@ -610,6 +613,8 @@ button {
      display: flex;
      align-items: center;
      justify-content: center;
+     -webkit-transition: -webkit-transform 0.4s;
+     transition: transform 0.4s;
 }
 
 .galleryh3 h3 {
