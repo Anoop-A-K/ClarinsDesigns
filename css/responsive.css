@@ -11,12 +11,7 @@
     #myCarousel .carousel-control-next:focus {
         right: 44%;
     }
-    #testimon a.carousel-control-prev {
-        left: 116%;
-    }
-    #testimon a.carousel-control-next {
-        right: -39%;
-    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -55,24 +50,10 @@
     #design a.carousel-control-prev {
         left: 28%;
     }
-    .mr_le figure {
-        margin-right: -145px !important;
-    }
-    .latest_news .news_box .news_img figure {
-        margin-left: -145px;
-    }
-    .latest_news .news_box .news_room ul li a {
-        padding-right: 8px;
-    }
-    .banner_testimonial {
-        padding: 40px 20px;
-    }
-    #testimon a.carousel-control-prev {
-        left: 113%;
-    }
-    #testimon a.carousel-control-next {
-        right: -40%;
-    }
+
+
+
+
     .footer h3 {
         font-size: 26px;
     }
@@ -125,24 +106,11 @@
     .text_de .titlepage {
         padding-bottom: 13px;
     }
-    .mr_le figure {
-        margin-right: -118px !important;
-    }
-    .latest_news .news_box .news_img figure {
-        margin-left: -120px;
-    }
-    .banner_testimonial {
-        padding: 40px 3px;
-    }
-    .text_humai {
-        padding: 0 10px 40px 15px;
-    }
-    #testimon a.carousel-control-prev {
-        left: 110%;
-    }
-    #testimon a.carousel-control-next {
-        right: -45%;
-    }
+
+
+
+
+  
     .footer h3 {
         font-size: 20px;
     }
@@ -154,13 +122,26 @@
     }
 }
 
+@media (min-width : 768px) and (max-width: 1061px) {
+    .banner {
+        min-height: 465px;
+    }
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
     .logo {
         padding-top: 5px;
     }
     .banner {
-        min-height: 550px;
+        min-height: 300px;
     }
+
+    .text-bg span{
+        font-size: 17px;
+        line-height: 31px;
+        width: 320px;
+    }
+
     .text-bg h1 {
         font-size: 70px;
     }
@@ -179,6 +160,7 @@
         left: 40.5%;
     }
     .about .titlepage {
+        margin-top: 80px;
         margin-right: 0;
         padding-bottom: 30px;
     }
@@ -199,25 +181,10 @@
     #design a.carousel-control-prev {
         left: 39%;
     }
-    .mr_le figure {
-        margin-right: -13px !important;
-    }
-    .latest_news .news_box .news_img figure {
-        margin-left: -12px;
-    }
-    .Testimonial .titlepage h2 {
-        padding-top: 30px;
-    }
-    #testimon .carousel-control-prev,
-    #testimon .carousel-control-next {
-        top: 111%;
-    }
-    #testimon a.carousel-control-next {
-        right: 32%;
-    }
-    #testimon a.carousel-control-prev {
-        left: 36%;
-    }
+ 
+
+
+   
     .variat {
         margin-bottom: 30px;
     }
@@ -261,15 +228,30 @@
     .header {
         height: 122px;
     }
+    .logo img{
+        max-width: 150%;
+    }
     .logo {
         padding-top: 5px;
         float: left;
         width: 140px;
     }
     .banner {
-        min-height: 550px;
-        padding-top: 37%;
+        min-height: 250px;
+        /* padding-top: 37%; */
     }
+
+    .text-bg span{
+        font-size: 17px;
+        line-height: 31px;
+        width: 268px;
+    }
+
+    .about{
+        padding-top: 0;
+    }
+
+
     .text-bg h1 {
         font-size: 44px;
         line-height: 55px;
@@ -289,6 +271,7 @@
         left: 37.5%;
     }
     .about .titlepage {
+        /* margin-top: 2px; */
         margin-right: 0;
         padding-bottom: 30px;
     }
@@ -306,9 +289,7 @@
         font-size: 28px;
         line-height: 29px;
     }
-    .latest_news .news_box .news_room ul li a {
-        padding-right: 3px;
-    }
+
     .banner_design {
         max-width: inherit;
         padding-bottom: 117px;
@@ -320,31 +301,9 @@
     #design a.carousel-control-prev {
         left: 11%;
     }
-    .mr_le figure {
-        margin-right: -13px !important;
-    }
-    .latest_news .news_box .news_img figure {
-        margin-left: -12px;
-    }
-    .banner_testimonial {
-        padding: 40px 7px;
-    }
-    .text_humai {
-        padding: 0 20px 40px 20px;
-    }
-    .Testimonial .titlepage h2 {
-        padding-top: 30px;
-    }
-    #testimon .carousel-control-prev,
-    #testimon .carousel-control-next {
-        top: 107%;
-    }
-    #testimon a.carousel-control-next {
-        right: 20%;
-    }
-    #testimon a.carousel-control-prev {
-        left: 22%;
-    }
+
+
+
     ul.link_menu {
         margin-bottom: 25px;
     }
