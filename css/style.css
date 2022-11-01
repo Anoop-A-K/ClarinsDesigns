@@ -314,10 +314,10 @@ button {
 .banner {
      position: relative;
      background: url(../images/banner1.jpg);
-     background-size: 95% 80%;
+     background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
-     background-color:#f3f3f3;
+     /* background-color:#f3f3f3; */
      min-height: 630px;
      padding-top: 13%;
 }
